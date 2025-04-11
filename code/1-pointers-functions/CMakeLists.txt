@@ -1,0 +1,1 @@
+add_executable(pointers-functions main.cpp)
