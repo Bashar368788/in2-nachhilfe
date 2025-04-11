@@ -27,22 +27,21 @@ namespace App::Utils {
     }
 }
 
+namespace Mohamad {
+void print (const char * msg)
+std::cout << msg << std::endl;
+
+}
+
 int main() {
     std::cout << "Namespace Example in C++\n";
 
-    // Using functions from the Math namespace
-    int sum = Math::add(5, 3);
-    int diff = Math::subtract(10, 7);
-    std::cout << "Math::add(5, 3) = " << sum << std::endl;
-    std::cout << "Math::subtract(10, 7) = " << diff << std::endl;
+    
 
-    // Using the Physics namespace
-    double height = 20.0;
-    double time = Physics::fallTime(height);
-    std::cout << "Physics::fallTime(20.0) = " << time << " seconds\n";
+    
 
-    // Using a nested namespace
-    App::Utils::printLine();
+
+
 
     return 0;
 }
